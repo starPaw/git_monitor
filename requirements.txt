@@ -1,0 +1,10 @@
+fastapi
+requests
+tinydb
+pandas
+pymongo
+aiohttp
+starlette
+hypercorn
+
+matplotlib
