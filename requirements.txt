@@ -1,10 +1,7 @@
-fastapi
-requests
-tinydb
-pandas
-pymongo
 aiohttp
-starlette
+requests
+pymongo
+fastapi
 hypercorn
-
 matplotlib
+python-dotenv

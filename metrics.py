@@ -1,5 +1,5 @@
 # metrics.py
-from typing import Any, Dict, List
+from typing import List
 from datetime import datetime
 from collections import Counter
 

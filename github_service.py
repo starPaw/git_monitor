@@ -1,7 +1,7 @@
 import re
 import aiohttp
 import asyncio
-from config import TOKEN
+from config import API_KEY
 from db_connector import DBConnector
 
 
@@ -22,7 +22,7 @@ class GithubService:
     async def fetch_github_events(self):
 
         headers = {"accept": "application/vnd.github+json",
-                   "Authorization": f"Bearer {TOKEN}"}
+                   "Authorization": f"Bearer {API_KEY}"}
         while True:
             if self.etag:
                 headers["If-None-Match"] = self.etag
