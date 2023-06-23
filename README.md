@@ -1,6 +1,8 @@
-# Github Stream Service
+# GitHub Stream Service
 
-Github Stream Service is a Python application built with FastAPI and MongoDB. It constantly connects to the GitHub API to fetch and analyze the latest events on GitHub. Then, it provides the computed metrics through a REST API.
+GitHub Stream Service is a Python application built with FastAPI and MongoDB. It constantly connects to the GitHub API to fetch and analyze the latest events on GitHub. Then, it provides the computed metrics through a REST API.
+
+![Diagram](diagram.png)
 
 ## Features
 
