@@ -9,8 +9,8 @@ dotenv.load_dotenv(f"{BASE_DIR}/.env")
 API_KEY = os.getenv('TOKEN')
 
 mongodb_config = {
-    "username": os.getenv('USER'),
-    "password": os.getenv('PASSWORD'),
-    "hostname": os.getenv('HOST'),
+    "username": os.getenv('DB_USER'),
+    "password": os.getenv('DB_PASSWORD'),
+    "hostname": os.getenv('DB_HOST'),
     "database": os.getenv('DB_NAME')
 }
